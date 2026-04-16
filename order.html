@@ -1,0 +1,210 @@
+<!DOCTYPE html>   
+<html lang="en">  
+
+<head>
+<meta charset="UTF-8">
+<title>Pizza Hub</title>  
+
+<link rel="stylesheet" href="df.css"> 
+
+<style>
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="main-content">
+
+<table width="100%">
+<tr>
+<td>
+<img src="logo.jpeg" width="120" height="60">  
+
+<span style="color:#FFD700; font-size:40px; font-weight:bold;"> Pizza Hub </span>        
+<br> 
+
+<span style="font-size:25px; font-weight:bold; color:white;"> Fresh • Hot • Delicious </span>
+</td>
+
+<td align="right">
+<a href="home.html">HOME</a>  |
+<a href="about.html">ABOUT</a> |
+<a href="menu.html">MENU</a>  |
+<a href="order.html">ORDER</a> |
+<a href="contact.html">CONTACT</a>
+</td>
+</tr>
+</table>
+
+<section id="ORDER">  
+<h2 style="color:#FFD700; text-align:center; font-family:Monotype Corsiva; font-size:55px;">
+ Pizza
+</h2>
+
+<form action="submit.html" method="post">
+
+<table border="1" cellspacing="8" cellpadding="15" align="center"
+style="width:85%; color:white; border-color:#FFD700; text-align:center; background-color:black; font-size:22px;">
+
+<tr style="background-color:#CD853F;">
+<th colspan="2" style="font-size:30px;">Pizza Order Form</th>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" required style="width:90%; font-size:18px;"></td>
+</tr>
+
+<tr>
+<td>Phone</td>
+<td><input type="tel" name="phone" pattern="[0-9]{10}" required style="width:90%; font-size:18px;"></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea name="address" required style="width:90%; font-size:18px;"></textarea></td>
+</tr>
+
+<tr style="background-color:#8B4513;">
+<th>Pizza</th>
+<th>Quantity</th>
+</tr>
+
+<tr style="background-color:#CD853F;">
+<td colspan="2"><b>Small</b></td>
+</tr>
+
+<tr>
+<td>Margherita</td>
+<td><input type="number" name="small_margherita" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Farmhouse Pizza</td>
+<td><input type="number" name="small_farmhouse" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Peppy Paneer Pizza</td>
+<td><input type="number" name="small_peppy" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Veggie Delight</td>
+<td><input type="number" name="small_veggie" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Indi Tandoori Pizza</td>
+<td><input type="number" name="small_tandoori" min="0"  value="0"></td>
+</tr>
+
+
+<tr style="background-color:#CD853F;">
+<td colspan="2"><b>Medium</b></td>
+</tr>
+
+<tr>
+<td>Margherita</td>
+<td><input type="number" name="medium_margherita" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Farmhouse Pizza</td>
+<td><input type="number" name="medium_farmhouse" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Peppy Paneer Pizza</td>
+<td><input type="number" name="medium_peppy" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Veggie Delight</td>
+<td><input type="number" name="medium_veggie" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Indi Tandoori Pizza</td>
+<td><input type="number" name="medium_tandoori" min="0"  value="0"></td>
+</tr>
+
+
+<tr style="background-color:#CD853F;">
+<td colspan="2"><b>Large</b></td>
+</tr>
+
+<tr>
+<td>Margherita</td>
+<td><input type="number" name="large_margherita" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Farmhouse Pizza</td>
+<td><input type="number" name="large_farmhouse" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Peppy Paneer Pizza</td>
+<td><input type="number" name="large_peppy" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Veggie Delight</td>
+<td><input type="number" name="large_veggie" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Indi Tandoori Pizza</td>
+<td><input type="number" name="large_tandoori" min="0"  value="0"></td>
+</tr>
+
+
+<tr style="background-color:#8B4513;">
+<th colspan="2">Beverages (225 ml)</th>
+</tr>
+
+<tr>
+<td>Coke</td>
+<td><input type="number" name="coke" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Pepsi</td>
+<td><input type="number" name="pepsi" min="0"  value="0"></td>
+</tr>
+
+<tr>
+<td>Fanta</td>
+<td><input type="number" name="fanta" min="0"  value="0"></td>
+</tr>
+
+</table>
+
+<br><br>
+
+<center>
+<input type="submit" value="Place Order"
+style="background-color:orange; color:white; padding:15px; font-size:20px;">
+</center>
+
+</form>
+
+</section>
+
+</div>
+
+<footer style="background-color:black; color:white; text-align:center; padding:10px; border-top:2px solid #FFD700;">
+    © 2026 Pizza Hub. All Rights Reserved.
+</footer>
+
+</body>
+</html>       
