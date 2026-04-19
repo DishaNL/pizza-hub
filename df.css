@@ -13,3 +13,13 @@ body {
 .main-content {
     flex: 1;
 }
+
+#order{
+    font-family: "Monotype Corsiva";
+    font-size: 60px;
+}
+
+.special{
+text-align: center;
+    color: white;
+}    
